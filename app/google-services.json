@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "523626682553",
+    "project_id": "baca-ca8a3-default-rtdb",
+    "storage_bucket": "baca-ca8a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523626682553:android:58dd7059b66e202979a368",
+        "android_client_info": {
+          "package_name": "com.example.bacaapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523626682553-4e2hhl737ahkckbqcfrk0dbm0ets2hsf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2BLWg38xdHIDeRpQ3NDv2TZviBM6y8eE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523626682553-4e2hhl737ahkckbqcfrk0dbm0ets2hsf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

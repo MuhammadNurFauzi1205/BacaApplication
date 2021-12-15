@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application1</string>
+    <string name="title" translatable="true">Apa yang anda dapatkan</string>
+    <string name="sub_title" translatable="true">Baca jurnal dari beberapa sumber dan kategori
+    hanya dalam satu genggaman </string>
+
+</resources>

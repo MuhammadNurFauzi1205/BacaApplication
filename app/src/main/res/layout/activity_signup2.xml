@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity2">
+
+    <ImageButton
+        android:id="@+id/back1"
+        android:layout_width="50dp"
+        android:layout_height="28dp"
+        android:src="@drawable/arrow1"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="41dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buat Akun Baru Anda !"
+            android:textColor="#CC3030"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="26sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/namauser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/username1"
+            android:paddingStart="20dp"
+            android:background="@drawable/round2"
+            android:hint="Nama pengguna"
+            android:layout_width="303dp"
+            android:layout_height="53dp"
+            android:inputType="text"
+            android:lines="1"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:id="@+id/email1"
+            android:paddingStart="20dp"
+            android:layout_width="303dp"
+            android:layout_height="53dp"
+            android:background="@drawable/round2"
+            android:hint="Alamat email"
+            tools:layout_editor_absoluteX="61dp"
+            tools:layout_editor_absoluteY="380dp"
+            android:lines="1"
+            android:inputType="textEmailAddress"
+            android:autofillHints="alamat emaila"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/password1"
+            android:paddingStart="20dp"
+            android:layout_width="303dp"
+            android:layout_height="53dp"
+            android:background="@drawable/round2"
+            android:hint="Kata sandi"
+            tools:layout_editor_absoluteX="61dp"
+            tools:layout_editor_absoluteY="380dp"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="303dp"
+        android:layout_height="58dp"
+        android:id="@+id/buat1"
+        android:text="BUAT"
+        android:fontFamily="sans-serif-medium"
+        android:shadowColor="#FFF"
+        android:textSize="24sp"
+        android:textColor="#FFF"
+        android:background="#C14848"
+        android:layout_marginTop="39dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namauser"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
